@@ -1,4 +1,6 @@
-
+<script>
+    AOS.init();
+</script>
 
 const slideShowImages = document.querySelectorAll("#slideshow .slides");
 
