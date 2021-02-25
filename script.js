@@ -1,5 +1,4 @@
 
-
 const slideShowImages = document.querySelectorAll("#slideshow .slides");
 
 const nextImageDelay = 2000;
