@@ -117,7 +117,9 @@
     height: 20px;
     border-bottom: 2px solid #2B2929;
     border-right: 2px solid #2B2929;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
     transform: rotate(45deg);
     animation: animate 2s infinite;
 }
@@ -138,6 +140,7 @@
     100%{
         opacity: 0;
         transform: rotate(45deg) translate(5px, 5px);
+        
     }
 }
 
@@ -368,6 +371,20 @@
         height: 0.05em;
         width: 70%;
     }
+
+    #end-of-page {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    #end {
+
+    }
+
 }
 
 
@@ -728,6 +745,9 @@
         height: 0.05em;
         width: 70%;
     }
+
+
+
 }
 
 
