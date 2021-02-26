@@ -55,7 +55,7 @@
         text-shadow: 0px 3px 10px rgba(255, 255, 255, 0.4);
     }
 
-    #slideshow {
+    /* #slideshow {
         position: relative;
         top: 17em;
         height: 25em;
@@ -70,7 +70,7 @@
         position: absolute;
         border-radius: 25px;
         margin: auto;
-    }
+    } */
 
     .project {
         display: grid;
@@ -98,7 +98,7 @@
     }
 
     #kenny-paragraph {
-        margin: 2em;
+        margin: 0.1em;
         text-align: left;
         margin-top: auto;
         margin-bottom: auto;
