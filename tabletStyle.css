@@ -80,7 +80,7 @@
     }
 
     #links {
-        bottom: 0;
+        margin-bottom: 4em;
         left: -4em;
         display: flex;
         flex-direction: row;
