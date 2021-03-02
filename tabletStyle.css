@@ -258,6 +258,15 @@
         border-color: #007286 transparent transparent transparent;
     }
 
-
+    #blank-space {
+        top: 10em;
+        margin: 5em;
+        border: 0;
+        flex-grow: 1;
+        position: relative;
+        background-color: transparent;
+        height: 0.05em;
+        width: 70%;
+    }
 
 }
