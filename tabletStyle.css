@@ -79,9 +79,184 @@
         margin:3em;
     }
 
-    
+    #links {
+        bottom: 0;
+        left: -4em;
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        width: 100%;
+        margin-right: 3em;
+        border: 0;
+        width: 100vw;
+        justify-content: space-around;
+        z-index: 3;
+    }
 
-    
+    .link-img {
+        height: 50px;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+        border: 0;
+        top: 30px;
+        color: #2B2929;
+    }
+
+    #icon-1 {
+        border-radius: 3px;
+    }
+    #icon-2 {
+        border-radius: 3px;
+    }
+    #icon-3 {
+        border-radius: 45px;
+    }
+    #icon-cv {
+        border-radius: 5px;
+    }
+
+    .link-img:hover {
+        box-shadow: 1px 4px 20px rgba(255, 255, 255, 0.8);
+        box-shadow: -1px -4px -10px rgba(255, 255, 255, 0.8);
+    }
+    .cv_tooltip {
+        position: relative;
+        display: inline-block;
+    }
+
+    .cv_tooltip .tooltiptext_cv {
+        visibility: hidden;
+        background-color: #007286;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        position: absolute;
+        left: -68px;
+        top: -35px;
+        z-index: 1;
+        width: 200px;
+
+    }
+
+    .cv_tooltip:hover .tooltiptext_cv {
+        visibility: visible;
+        
+    }
+    .cv_tooltip .tooltiptext_cv::after {
+        content: " ";
+        position: absolute;
+
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #007286 transparent transparent transparent;
+    }
+
+    .email_tooltip {
+        position: relative;
+        display: inline-block;
+    }
+
+    .email_tooltip .tooltiptext_email {
+        visibility: hidden;
+        background-color: #007286;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        position: absolute;
+        left: -68px;
+        top: -35px;
+        z-index: 1;
+        width: 200px;
+
+    }
+
+    .email_tooltip:hover .tooltiptext_email {
+        visibility: visible;
+        
+    }
+    .email_tooltip .tooltiptext_email::after {
+        content: " ";
+        position: absolute;
+
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #007286 transparent transparent transparent;
+    }
+
+    .github_tooltip {
+        position: relative;
+        display: inline-block;
+    }
+
+    .github_tooltip .tooltiptext_github {
+        visibility: hidden;
+        background-color: #007286;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        position: absolute;
+        left: -68px;
+        top: -35px;
+        z-index: 1;
+        width: 200px;
+
+    }
+
+    .github_tooltip:hover .tooltiptext_github {
+        visibility: visible;
+    }
+    .github_tooltip .tooltiptext_github::after {
+        content: " ";
+        position: absolute;
+
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #007286 transparent transparent transparent;
+    }
+
+    .linkedin_tooltip {
+        position: relative;
+        display: inline-block;
+    }
+
+    .linkedin_tooltip .tooltiptext_linkedin {
+        visibility: hidden;
+        background-color: #007286;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        position: absolute;
+        left: -68px;
+        top: -35px;
+        z-index: 1;
+        width: 200px;
+
+    }
+
+    .linkedin_tooltip:hover .tooltiptext_linkedin {
+        visibility: visible;
+    }
+    .linkedin_tooltip .tooltiptext_linkedin::after {
+        content: " ";
+        position: absolute;
+
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #007286 transparent transparent transparent;
+    }
 
 
 
